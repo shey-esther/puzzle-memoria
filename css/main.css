@@ -1,0 +1,43 @@
+/*//estilos css*/
+*{
+	margin: 0;
+	border: 0;
+}
+
+#tablero{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.cel{
+	background-color: black;
+	width: 200px;
+	height: 200px;
+}
+img{
+	background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+h1{
+	font-family: cursive;
+	padding: 80px 0px 50px 0px;
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+}
+section{
+	background-image: url("../img/fondoPantalla.jpg");
+	background-size: cover;
+}
+#negro{
+	position: absolute;
+	z-index: 1;
+}
+
+
+
+
+
+
